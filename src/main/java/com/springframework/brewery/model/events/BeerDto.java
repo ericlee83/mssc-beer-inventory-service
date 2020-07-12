@@ -1,4 +1,4 @@
-package guru.sfg.common.events;
+package com.springframework.brewery.model.events;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
