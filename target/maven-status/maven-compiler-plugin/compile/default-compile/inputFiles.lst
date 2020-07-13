@@ -3,6 +3,9 @@
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/BeerInventoryApplication.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/domain/BeerInventory.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/domain/BaseEntity.java
+/Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/services/AllocationServiceImpl.java
+/Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/com/springframework/brewery/model/BeerOrderLineDto.java
+/Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/com/springframework/brewery/model/BeerOrderDto.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/config/JmsConfig.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/web/controllers/BeerInventoryController.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/com/springframework/brewery/model/events/NewInventoryEvent.java
@@ -12,3 +15,4 @@
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/com/springframework/brewery/model/events/BeerDto.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/web/mappers/DateMapper.java
 /Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/repositories/BeerInventoryRepository.java
+/Users/eric-lee-83/Documents/workspace-qantas/mssc-beer-inventory-service/src/main/java/guru/sfg/beer/inventory/service/services/AllocationService.java
