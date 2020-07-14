@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class NewInventoryListener {
 
-    private BeerInventoryRepository beerInventoryRepository;
+    private final BeerInventoryRepository beerInventoryRepository;
 
     @JmsListener(destination = JmsConfig.NEW_INVENTORY)
     public void listener(NewInventoryEvent event){
