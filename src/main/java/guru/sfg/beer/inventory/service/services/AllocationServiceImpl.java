@@ -34,6 +34,11 @@ public class AllocationServiceImpl implements AllocationService {
         return totalOrdered.get() == totalAllocated.get();
     }
 
+    @Override
+    public void deallocateOrder(BeerOrderDto beerOrder) {
+        log.debug("Deallocating orderId: "+beerOrder.getId());
+    }
+
     private void allocateBeerOrderLine(BeerOrderLineDto orderLine) {
         List<BeerInventory> beerInventories = beerInventoryRepository.findAllByUpc(orderLine.getUpc());
         beerInventories.forEach(beerInventory -> {

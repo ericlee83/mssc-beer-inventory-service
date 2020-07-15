@@ -13,6 +13,7 @@ public class JmsConfig {
     public static final String NEW_INVENTORY = "new-inventory";
     public static final String ALLOCATE_ORDER = "allocate_order";
     public static final String ALLOCATE_ORDER_RESPONSE = "allocate_order_response";
+    public static final String DEALLOCATE_ORDER = "deallocate_order";
 
     @Bean
     public MessageConverter messageConverter(ObjectMapper objectMapper){
