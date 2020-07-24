@@ -2,6 +2,7 @@ com/springframework/brewery/model/events/BeerEvent$BeerEventBuilder.class
 com/springframework/brewery/model/BeerOrderLineDto.class
 guru/sfg/beer/inventory/service/services/AllocationService.class
 guru/sfg/beer/inventory/service/repositories/BeerInventoryRepository.class
+com/springframework/brewery/model/events/DeallocateOrderRequest.class
 com/springframework/brewery/model/events/BeerEvent.class
 guru/sfg/beer/inventory/service/web/controllers/BeerInventoryController.class
 com/springframework/brewery/model/events/NewInventoryEvent.class
@@ -9,10 +10,17 @@ guru/sfg/beer/inventory/service/domain/BeerInventory$BeerInventoryBuilder.class
 guru/sfg/beer/inventory/service/bootstrap/BeerInventoryBootstrap.class
 guru/sfg/beer/inventory/service/services/AllocationServiceImpl.class
 guru/sfg/beer/inventory/service/domain/BaseEntity.class
+com/springframework/brewery/model/events/AllocateOrderResult.class
 com/springframework/brewery/model/BeerOrderDto$BeerOrderDtoBuilder.class
+guru/sfg/beer/inventory/service/services/DeallocationListener.class
 guru/sfg/beer/inventory/service/web/mappers/BeerInventoryMapperImpl.class
+com/springframework/brewery/model/events/DeallocateOrderRequest$DeallocateOrderRequestBuilder.class
+guru/sfg/beer/inventory/service/config/WebSecurityConfig.class
+guru/sfg/beer/inventory/service/config/LocalConfig.class
+guru/sfg/beer/inventory/service/services/AllocationListener.class
 guru/sfg/beer/inventory/service/web/mappers/BeerInventoryMapper.class
 com/springframework/brewery/model/events/BeerDto.class
+com/springframework/brewery/model/events/AllocateOrderRequest.class
 com/springframework/brewery/model/BeerOrderDto.class
 com/springframework/brewery/model/BeerInventoryDto.class
 guru/sfg/beer/inventory/service/config/JmsConfig.class
@@ -20,6 +28,8 @@ guru/sfg/beer/inventory/service/domain/BeerInventory.class
 com/springframework/brewery/model/events/BeerDto$BeerDtoBuilder.class
 guru/sfg/beer/inventory/service/web/mappers/DateMapper.class
 com/springframework/brewery/model/BeerInventoryDto$BeerInventoryDtoBuilder.class
+com/springframework/brewery/model/events/AllocateOrderResult$AllocateOrderResultBuilder.class
 com/springframework/brewery/model/BeerOrderLineDto$BeerOrderLineDtoBuilder.class
+com/springframework/brewery/model/events/AllocateOrderRequest$AllocateOrderRequestBuilder.class
 guru/sfg/beer/inventory/service/BeerInventoryApplication.class
 guru/sfg/beer/inventory/service/services/NewInventoryListener.class
